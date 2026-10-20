@@ -1,6 +1,7 @@
 # IDE
 .idea/
 .vscode/
+.obsidian/
 *.swp
 *.swo
 
@@ -16,3 +17,10 @@ Thumbs.db
 # Data (development files)
 data/*
 !data/.gitkeep
+
+# One-shot spike/research output
+scripts/out/
+
+# Agent local state
+.claude/settings.local.json
+.playwright-mcp/
